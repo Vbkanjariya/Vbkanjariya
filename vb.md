@@ -30,7 +30,6 @@ def expand(X):
     X_expanded[:, 5] = 1
     return X_expanded
     
-Logistic regression
 
 def probability(X, w):
     """
@@ -91,7 +90,6 @@ def compute_grad(X, y, w):
 
 
 
-Mini-batch SGD
 
 # please use np.random.seed(42), eta=0.1, n_iter=100 and batch_size=4 for deterministic results
 
@@ -135,7 +133,6 @@ plt.clf()
 
 
 
-SGD with momentum
 
 # please use np.random.seed(42), eta=0.05, alpha=0.9, n_iter=100 and batch_size=4 for deterministic results
 np.random.seed(42)
@@ -176,7 +173,6 @@ plt.clf()
 
 
 
-RMSprop
 
 # please use np.random.seed(42), eta=0.1, alpha=0.9, n_iter=100 and batch_size=4 for deterministic results
 np.random.seed(42)
